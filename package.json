@@ -1,0 +1,23 @@
+{
+  "name": "xor",
+  "version": "1.0.0",
+  "description": "hello world for synaptics",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bo4arovpavel1989/XOR.git"
+  },
+  "author": "bo4arovpavel1989",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bo4arovpavel1989/XOR/issues"
+  },
+  "homepage": "https://github.com/bo4arovpavel1989/XOR#readme",
+  "dependencies": {
+    "ramda": "^0.25.0",
+    "seed-random": "^2.2.0"
+  }
+}
