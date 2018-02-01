@@ -13,7 +13,7 @@ var outputResults = () =>
                  console.log(`${i1} XOR ${i2} => ${nn(i1, i2)} (expected ${y})`));
 
 
-R.times(() => applyTrainUpdate(), 100000)
+R.times(() => applyTrainUpdate(), 9999999)
 				 
 calculateResults();
 

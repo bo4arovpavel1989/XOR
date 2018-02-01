@@ -54,8 +54,8 @@ var train = () => {
         //Мы не можем просто взять и изменить их - это выход такой же функции активации
         //Поэтому мы пропускаем эту ошибку дальше по тому же принципу
         
-        var h1_delta = o1_delta * derivative_sigmoid(h1_input);
-        var h2_delta = o1_delta * derivative_sigmoid(h2_input);
+        var h1_delta = weights.h1_o1 *o1_delta * derivative_sigmoid(h1_input);
+        var h2_delta = weights.h2_o1 *o1_delta * derivative_sigmoid(h2_input);
         
         weight_deltas.i1_h1 += i1 * h1_delta;
         weight_deltas.i2_h1 += i2 * h1_delta;
